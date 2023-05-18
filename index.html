@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Simple HTML Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Additional custom styles can be added here */
+    </style>
   </head>
   <body>
-    Hello World
+    <header class="bg-blue-500 py-4">
+      <div class="container mx-auto px-4">
+        <h1 class="text-white text-3xl font-bold">My Simple HTML Site</h1>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+      <section>
+        <h2 class="text-2xl font-bold mb-4">About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          consectetur nisi et ligula consequat gravida.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-bold mb-4">Our Services</h2>
+        <ul class="list-disc pl-6">
+          <li>Web Design</li>
+          <li>Graphic Design</li>
+          <li>Content Writing</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="bg-gray-200 py-4">
+      <div class="container mx-auto px-4">
+        <p class="text-center text-gray-600">
+          &copy; 2023 My Simple HTML Site. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
